@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="Witaj w aplikacji zapisu pozycji GPS!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="320dp"
+        android:layout_height="74dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp"
+        android:text="Ty jak i inni użytkownicy możecie zapiywać wymieniać się miejscami swojego pobytu."
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="222dp"
+        android:layout_height="83dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="188dp"
+        android:onClick="LogowanieButton"
+        android:text="Logowanie"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="220dp"
+        android:layout_height="85dp"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-188dp"
+        android:onClick="WyjscieButton"
+        android:text="Wyjscie"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "189174734424",
+    "firebase_url": "https://apeczka-8fa33.firebaseio.com",
+    "project_id": "apeczka-8fa33",
+    "storage_bucket": "apeczka-8fa33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189174734424:android:f6c23928c0af21b0",
+        "android_client_info": {
+          "package_name": "com.example.krzysztofpiorkowski.apeczka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189174734424-pv4lppkfbndcrv571dd0b91moa46j4m2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO9TIqJe8QmxXU50IUSYrW8MIlhsjkDNQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
